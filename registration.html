@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style2.css">
+    <title>Document</title>
+</head>
+<body>
+    <center><h1>Registration Form</h1></center>
+    <br>   
+    <form>
+        <div class="container">
+        <label>First Name:</label>
+        <input type="text" name="firstname" placeholder="firstname" size="15" required>
+        <label> Last Name: </label>    
+        <input type="text" name="lastname" placeholder="Lastname" size="15"required /> 
+        
+       <div>
+       <label>Gender: </label>
+       <input type="radio" name="gender" value="Male">Male
+       <input type="radio" name="gender" value="Female">Female
+       <input type="radio" name="gender" value="Other">Other
+    </div>
+
+    <label>Phone :</label>  
+        <input type="text" name="country code" placeholder="Country Code"  value="+91" size="2"/>   
+        <input type="text" name="phone" placeholder="phone no." required>
+
+        <label for="email"><b>Email</b></label>  
+        <input type="text" placeholder="Enter Email" name="email" required>  
+  
+        <label for="psw"><b>Password</b></label>  
+        <input type="password" placeholder="Enter Password" name="psw" required>  
+  
+        <label for="psw-repeat"><b>Re-type Password</b></label>  
+        <input type="password" placeholder="Retype Password" name="psw-repeat" required>  
+        <a href="FormsEx.html"><button type="submit" class="registerbtn">Register</button></a>
+    </form>
+</body>
+</html>
